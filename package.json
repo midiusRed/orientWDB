@@ -5,6 +5,6 @@
     "typescript": "^3.1.6"
   },
   "scripts": {
-    "build": "node ./node_modules/typescript/lib/tsc.js -m commonjs -t es6 --removeComments wdb.ts && node wdb.js"
+    "build": "node ./node_modules/typescript/lib/tsc.js -m commonjs -t es6 --removeComments ./src/main.ts && node ./src/main.js"
   }
 }
